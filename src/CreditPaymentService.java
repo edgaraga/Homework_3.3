@@ -1,5 +1,3 @@
-import java.lang.Math;
-
 public class CreditPaymentService {
     public double calculate(double interestRate, int numberOfYearOfLoanRepayment, int loanAmount) {
         double interestRateOnTheLoanPerMonth = interestRate / 1200;                     //Процентная ставка в месяц
